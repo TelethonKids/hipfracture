@@ -103,6 +103,7 @@ ui <- dashboardPage(
               ),
               fluidRow(
                 box(
+                  tags$div(p("This app is for use in community-based people with type 2 diabetes aged between 40 and 89 years. There may be situations where this fracture risk calculator may not sufficiently reflect the higher fracture risk in people with concomitant medical conditions with an established increased risk of osteoporosis and/or minimal trauma fracture e.g. primary hyperparathyroidism, hypogonadism, glucocorticoid use.")),
                   tags$div(p("This application was designed for people with type 2 diabetes. Results may not be accurate for people without type 2 diabetes.")),
                   tags$div(p("This application uses the CKD-EPI equation for eGFR that was originally developed for White (or other non-African-American individuals) and African-American cohorts; however, this calculator has not been validated for African-American individuals.")),
                   tags$div(p(HTML(paste("For more information about this calculator see reference:", tags$a(HTML("WA Davis <em>et al.</em> Diabetes Care 2019; 42(1): 102-109. https://doi.org/10.2337/dc18-1486"), href = "https://doi.org/10.2337/dc18-1486"))))),
